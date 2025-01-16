@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5fbff;
+    color: #87789c; 
+    line-height: 1.8;
+}
+
+
+header {
+    font-family: 'Times New Roman', Times, serif;
+
+    background-color: #f0f4ff; 
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+
+header img {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6c4f97;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #9288b4;
+}
+
+
+#p1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #cfbdff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+#p1 img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+#titulo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2em;
+    font-weight: 700;
+    color: #442770;
+    text-align: left;
+    max-width: 60%;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c4f97;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+
+p {
+    font-size: 1.1em;
+    color: 
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+
+section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+a {
+    color: #9c57a8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #6c4f97;
+}
+
+link[rel="shortcut icon"] {
+    width: 32px;
+    height: 32px;
+}
